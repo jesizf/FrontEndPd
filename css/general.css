@@ -1,0 +1,55 @@
+*{
+    background-color:wheat;
+   
+    
+}
+body{
+    text-align: center;
+    
+    
+   
+    
+}
+article{
+    display:flex;
+   justify-content: space-evenly;
+   color:brown
+    
+}
+img{
+    width:100%;
+    height:100%; 
+
+}
+
+p{
+    background-color: wheat;
+    width: 40%;
+    font-size: large;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+    
+    
+#titulo{
+text-align: center;
+color:chocolate;
+text-decoration-line: underline;
+
+}
+.subtitulo{
+    text-decoration-line: underline;
+    
+}
+.receta{background-color:burlywood}
+.receta ul, li{
+    background-color:burlywood;
+    font-size: large;
+    color:brown
+    
+}
+
+.receta ol, li {
+    background-color: burlywood;
+}
+
