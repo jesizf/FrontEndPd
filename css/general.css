@@ -1,24 +1,56 @@
-*{
+body{
     background-color:wheat;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.navegador {  justify-content:center ;
+    display:flex;
+    background-color: brown;
+    
+   
+}
+
+.navegador ul{ justify-content: space-around;
    
     
 }
-body{
-    text-align: center;
+.navegador li{
+   display:inline-block;
+    list-style:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+   
     
     
+   
+   
+    
+    
+    
+}
+.navegador li a{
+    text-decoration: none;
+    color:burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:0px;
+   
+   
    
     
 }
 article{
     display:flex;
    justify-content: space-evenly;
-   color:brown
+   color:brown;
+   margin-top: 25px;;
     
 }
 img{
     width:100%;
-    height:100%; 
+    height:auto;
 
 }
 
@@ -30,7 +62,11 @@ p{
     justify-content: space-evenly;
 }
     
+.video{
+    width:100%;
+    height: 100%;
     
+}    
 #titulo{
 text-align: center;
 color:chocolate;
@@ -39,17 +75,19 @@ text-decoration-line: underline;
 }
 .subtitulo{
     text-decoration-line: underline;
+    background-color: burlywood;
     
 }
-.receta{background-color:burlywood}
-.receta ul, li{
-    background-color:burlywood;
+.receta{text-align:center;
+}
+.receta ul, .receta li{
+    
     font-size: large;
     color:brown
     
 }
 
-.receta ol, li {
-    background-color: burlywood;
+.receta ul{
+    list-style: none;
 }
 
