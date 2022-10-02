@@ -49,20 +49,22 @@ body{
     float:left;
 }
 article{
-    display:flex;
+ 
    justify-content: space-evenly;
    color:brown;
-   margin-top: 10px;;
+   margin-top: 10px;
+   display: flex;
     
 }
+
 img{
-    width:100%;
+  width: 75%;
     height:auto;
 
 }
 
-p{
-    background-color: wheat;
+.contenedor section article p{
+  display: flex;
     width: 40%;
     font-size: large;
     text-align: justify;
@@ -71,10 +73,14 @@ p{
 }
     
 .video{
-    width:100%;
+    width:60%;
    
     
-}    
+} 
+.ingredientes{
+    text-align: center;
+    width:40%;
+}  
 #titulo{
 text-align: center;
 color:chocolate;
@@ -84,8 +90,11 @@ text-decoration-line: underline;
 .subtitulo{
     text-decoration-line: underline;
     background-color: burlywood;
+    text-align: center;
+    color:brown;
     
 }
+
 .receta{text-align:center;
 }
 .receta ul, .receta li{
@@ -101,10 +110,54 @@ text-decoration-line: underline;
 
 .lateral{
     background-color: burlywood;
-    color:red;
+    color:brown;
     margin-top:10px;
     margin-left:10px;
    width:19%;
-   height: 1560px;
+   height: 1350px;
     float: left;
+}
+.lateral img{
+    margin-top:10px;
+    margin-bottom:10px;
+    width:80%;
+}
+.canciones audio{
+    width:200px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+footer{
+   float:left;
+   background-color: brown;
+   width:100%;
+  
+  
+   margin-top: 10px;
+}
+.redessociales i{
+  font-size: 30px;
+  margin:7px 8px 7px;
+
+   
+}
+.btn-wsp{
+    position: fixed;
+    width:55px;
+    height: 55px;
+    line-height: 55px;
+    bottom:30px;
+    right:30px;
+    background-color:#0df053;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px; 
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+text-decoration: none;
+background-color:#0df053;
+background-color: #fff;
 }
