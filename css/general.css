@@ -140,15 +140,24 @@ footer{
    float:left;
    background-color: brown;
    width:100%;
+   
   
   
    margin-top: 10px;
 }
+.texto{
+    margin-top:6px
+}
+span{
+   color:wheat;
+   display: flex;
+   justify-content: center
+}
 .redessociales i{
   font-size: 30px;
-  margin:7px 8px 7px;
+  margin:-2px 8px 9px;
   text-decoration: none;
-    color: black;
+  color:wheat;
 
    
 }
