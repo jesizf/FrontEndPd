@@ -4,7 +4,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
-
+.encabezado{
+    color:chocolate;
+}
 .navegador {  justify-content:center ;
     display:flex;
     background-color: brown;
@@ -138,6 +140,8 @@ footer{
 .redessociales i{
   font-size: 30px;
   margin:7px 8px 7px;
+  text-decoration: none;
+    color: black;
 
    
 }
