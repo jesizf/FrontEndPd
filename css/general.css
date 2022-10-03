@@ -1,7 +1,9 @@
+*{box-sizing: border-box;}
 body{
     background-color:wheat;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
   
 }
 .encabezado{
@@ -47,8 +49,10 @@ body{
     display:flex;
     flex-direction: column;
     width:80%;
-    height:300px;
+    position: relative;
+    
     float:left;
+  
 }
 article{
  
@@ -120,11 +124,16 @@ text-decoration-line: underline;
 .lateral{
     background-color: burlywood;
     color:brown;
-    margin-top:10px;
+    margin-left:5px;
+
     margin-left:10px;
    width:19%;
-   height: 1350px;
-    float: left;
+  
+   position: relative;
+   min-height: 206vh;
+   float: left;
+   
+   
 }
 .lateral img{
     margin-top:10px;
@@ -137,13 +146,13 @@ text-decoration-line: underline;
     margin-bottom: 15px;
 }
 footer{
-   float:left;
+   
    background-color: brown;
    width:100%;
-   
   
   
-   margin-top: 10px;
+  float:left;
+   margin-top: auto;
 }
 .texto{
     margin-top:15px
