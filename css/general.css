@@ -1,19 +1,33 @@
-*{box-sizing: border-box;}
+*
+{
+box-sizing: border-box;}
 body{
-    background-color:wheat;
+    background-color:rgb(25, 48, 42);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+ 
+}
+header{
+  width: 100%;
   
 }
+header div{display: flex;
+flex-direction: row;
+background-color:rgb(25, 48, 42);
+
+margin-bottom: 1px;}
+
 .encabezado{
-    color:chocolate;
+    color: burlywood;
+    margin:25px;
+}
+.logo{
+    width:20%;
 }
 .navegador {  justify-content:center ;
-    display:flex;
-    background-color: brown;
-    
-   
+  
+    background-color:rgb(25, 48, 42);
+   padding:2px;
 }
 
 .navegador ul{ justify-content: space-around;
@@ -40,26 +54,31 @@ body{
     color:burlywood;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top:0px;
+    flex-wrap: wrap;
    
    
    
     
 }
+.main{
+   width:85%;
+background-color:beige;
+}
 .contenedorfull{
     display:flex;
-    flex-direction: column;
-    width:80%;
-    position: relative;
-    
-    float:left;
-  
+    width:100%;
+   
 }
 article{
  
    justify-content: space-evenly;
-   color:brown;
+   color:black;
    margin-top: 10px;
-   display: flex;
+   display: flex; 
+   
+   flex-direction: column;
+   text-align: left;
+  
     
 }
 
@@ -68,7 +87,7 @@ img{
     height:auto;
 
 }
-
+.imagen {text-align: center;}
 .contenedor section article p{
   display: flex;
     width: 40%;
@@ -86,18 +105,37 @@ img{
 .ingredientes{
     text-align: center;
     width:40%;
+    
 }  
 #titulo{
 text-align: center;
-color:chocolate;
+color:wheat;
 text-decoration-line: underline;
-
+width:70%;
+padding-top:25px;
+}
+.redessociales2{
+    justify-items: center;
+    justify-content: flex-end;
+    width:15%;
+}
+.redessociales2 i{
+    font-size: 30px;
+    margin:-2px 8px 9px;
+    text-decoration: none;
+    color:wheat;
+    padding-top:50px;
+    justify-content: space-around;
+ 
+     
+  
 }
 .subtitulo{
     text-decoration-line: underline;
 
     text-align: center;
-    color:brown;
+    color:black;
+
     
 }
 .subtitulo2{
@@ -105,14 +143,18 @@ text-decoration-line: underline;
     background-color: burlywood;
     text-align: center;
     color:brown;
-    
+   
 }
-.receta{text-align:center;
+.receta{
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+
 }
 .receta ul, .receta li{
     
     font-size: large;
-    color:brown
+    color:black;
     
 }
 
@@ -123,16 +165,23 @@ text-decoration-line: underline;
 
 .lateral{
     background-color: burlywood;
-    color:brown;
-    margin-left:5px;
-
-    margin-left:10px;
-   width:19%;
-  
-   position: relative;
-   min-height: 206vh;
-   float: left;
+    color:chocolate;
+    margin-left: 5px;
+    /* margin-left: 10px; */
    
+    
+    /* position: relative; */
+    /* min-height: 206vh; */
+    /* float: right; */
+    /* flex-direction: row; */
+    /* margin-top: 0px; */
+    display: flex;
+    flex-direction: column;
+    /* align-self: auto; */
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+ 
    
 }
 .lateral img{
@@ -147,12 +196,15 @@ text-decoration-line: underline;
 }
 footer{
    
-   background-color: brown;
+   background-color: rgb(25, 48, 42);
    width:100%;
-  
-  
+   justify-content: space-around;
+  color:wheat;
   float:left;
    margin-top: auto;
+   display:flex;
+   flex-wrap: wrap;
+   align-items: center;
 }
 .texto{
     margin-top:15px
@@ -164,7 +216,7 @@ span{
 }
 .redessociales i{
   font-size: 30px;
-  margin:-2px 8px 9px;
+  margin:10px 8px 9px;
   text-decoration: none;
   color:wheat;
 
@@ -189,4 +241,8 @@ span{
 text-decoration: none;
 background-color:#0df053;
 background-color: #fff;
+}
+.preparacion{
+    display: flex;
+    
 }
