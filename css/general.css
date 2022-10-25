@@ -1,16 +1,14 @@
 *
 {
-box-sizing: border-box;}
+box-sizing: border-box;
+margin:0px;}
 body{
     background-color:rgb(25, 48, 42);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
-header{
-  width: 100%;
-  
-}
+
 header div{display: flex;
 flex-direction: row;
 background-color:rgb(25, 48, 42);
@@ -23,6 +21,7 @@ margin-bottom: 1px;}
 }
 .logo{
     width:20%;
+    justify-content: left;
 }
 .navegador {  justify-content:center ;
   
@@ -30,7 +29,7 @@ margin-bottom: 1px;}
    padding:2px;
 }
 
-.navegador ul{ justify-content: space-around;
+.navegador ul{ justify-content: space-around; margin:10px;
    
     
 }
@@ -51,7 +50,7 @@ margin-bottom: 1px;}
 }
 .navegador li a{
     text-decoration: none;
-    color:burlywood;
+    color:wheat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top:0px;
     flex-wrap: wrap;
@@ -63,6 +62,7 @@ margin-bottom: 1px;}
 .main{
    width:85%;
 background-color:beige;
+
 }
 .contenedorfull{
     display:flex;
@@ -75,9 +75,10 @@ article{
    color:black;
    margin-top: 10px;
    display: flex; 
-   
+   margin-bottom: 10px;
    flex-direction: column;
    text-align: left;
+   font-family: 'Poppins', sans-serif;
   
     
 }
@@ -115,16 +116,17 @@ width:70%;
 padding-top:25px;
 }
 .redessociales2{
-    justify-items: center;
+    
     justify-content: flex-end;
-    width:15%;
+    width:20%;
+    align-items: center;
 }
 .redessociales2 i{
     font-size: 30px;
     margin:-2px 8px 9px;
     text-decoration: none;
     color:wheat;
-    padding-top:50px;
+   
     justify-content: space-around;
  
      
@@ -166,7 +168,8 @@ padding-top:25px;
 .lateral{
     background-color: burlywood;
     color:chocolate;
-    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    
     /* margin-left: 10px; */
    
     
@@ -201,13 +204,17 @@ footer{
    justify-content: space-around;
   color:wheat;
   float:left;
-   margin-top: auto;
+   
    display:flex;
    flex-wrap: wrap;
    align-items: center;
 }
 .texto{
-    margin-top:15px
+    margin-top:15px;
+    font-family: 'Poppins', sans-serif;
+}
+.mapa{
+    margin-top:2px;
 }
 span{
    color:wheat;
