@@ -3,17 +3,22 @@
 box-sizing: border-box;
 margin:0px;}
 body{
-    background-color:rgb(25, 48, 42);
+    background-color: burlywood;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 
-header div{display: flex;
-flex-direction: row;
-background-color:rgb(25, 48, 42);
+header div{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: rgb(25, 48, 42);
+    margin-bottom: 1px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-margin-bottom: 1px;}
+
 
 .encabezado{
     color: burlywood;
@@ -22,6 +27,9 @@ margin-bottom: 1px;}
 .logo{
     width:20%;
     justify-content: left;
+}
+header{
+    flex-wrap: wrap;
 }
 .navegador {  justify-content:center ;
   
@@ -51,7 +59,7 @@ margin-bottom: 1px;}
 .navegador li a{
     text-decoration: none;
     color:wheat;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS';
     margin-top:0px;
     flex-wrap: wrap;
    
@@ -66,7 +74,7 @@ background-color:beige;
 }
 .contenedorfull{
     display:flex;
-    width:100%;
+    
    
 }
 article{
@@ -112,13 +120,14 @@ img{
 text-align: center;
 color:wheat;
 text-decoration-line: underline;
-width:70%;
+font-family:'Trebuchet MS';
+
 padding-top:25px;
 }
 .redessociales2{
     
     justify-content: flex-end;
-    width:20%;
+    
     align-items: center;
 }
 .redessociales2 i{
@@ -183,7 +192,7 @@ padding-top:25px;
     /* align-self: auto; */
     justify-content: space-around;
     align-items: center;
-    width: 15%;
+    width: 17%;
  
    
 }
