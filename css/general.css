@@ -26,7 +26,7 @@ header div{
 }
 .logo{
     width:20%;
-    justify-content: left;
+    
 }
 header{
     flex-wrap: wrap;
@@ -121,7 +121,7 @@ text-align: center;
 color:wheat;
 text-decoration-line: underline;
 font-family:'Trebuchet MS';
-
+width:55%;
 padding-top:25px;
 }
 .redessociales2{
