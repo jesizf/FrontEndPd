@@ -351,6 +351,7 @@ span {
         /* flex-direction: column; */
         flex-direction: row;
         justify-content: space-evenly;
+        display: none;
     }
 
     nav ul {
@@ -411,6 +412,17 @@ span {
     ol {
         margin: 5px;
     }
+    footer {
+        background-color: rgb(25, 48, 42);
+        width: 100%;
+        justify-content: space-around;
+        color: wheat;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
 
 
 }
@@ -453,12 +465,35 @@ span {
 
     .receta ul {
         list-style: none;
-        margin: 27px 29px 3px 0px;
-        /* margin-left: 0px; */
-    }
-
+         margin: 19px 15px 0px 0px; 
+        padding-left: 10px;
+        }
     ol {
         margin: 5px;
+    
     }
+    footer {
+        background-color: rgb(25, 48, 42);
+        width: 100%;
+        justify-content: space-around;
+        color: wheat;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+@media (max-width:1024px){
+    .video iframe {
+        width: 90%;
+    }
+       
+        .receta ul {
+            list-style: none;
+            margin: 25px 15px 0px 0px;
+            padding-left: 0px;
+        }
 
 }
