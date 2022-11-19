@@ -1,187 +1,226 @@
-*
-{
-box-sizing: border-box;
-margin:0px;}
-body{
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
     background-color: burlywood;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
+
 }
 
-header div{
+header div {
     display: flex;
     /* flex-direction: row; */
     background-color: rgb(25, 48, 42);
-    margin-bottom: 1px;
+    
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 
-.encabezado{
+.encabezado {
     color: burlywood;
-    margin:25px;
-}
-.logo{
-    width:20%;
-    
-}
-header{
-    flex-wrap: wrap;
-}
-.navegador {  justify-content:center ;
-  
-    background-color:rgb(25, 48, 42);
-   padding:2px;
+    margin: 25px;
 }
 
-.navegador ul{ justify-content: space-around; margin:10px;
-   
+.logo {
+    width: 33%;
+    margin-right: 0px;
+
+}
+.logo img {
+    width: 33%;
     
 }
-.navegador li{
-   display:inline-block;
-    list-style:none;
+
+header {
+    flex-wrap: wrap;
+}
+
+.navegador {
+    justify-content: center;
+
+    background-color: rgb(25, 48, 42);
+    padding: 2px;
+}
+
+nav:hover {
+    background-color: rgb(31, 77, 45);
+
+    transition: 1s;
+}
+
+.navegador ul {
+    justify-content: space-around;
+    margin: 10px;
+
+
+}
+
+.navegador li {
+    display: inline-block;
+    list-style: none;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
-   
-    
-    
-   
-   
-    
-    
-    
+
+
+
+
+
+
+
+
 }
-.navegador li a{
+
+.navegador li a {
     text-decoration: none;
-    color:wheat;
+    color: wheat;
     font-family: 'Trebuchet MS';
-    margin-top:0px;
+    margin-top: 0px;
     flex-wrap: wrap;
-   
-   
-   
-    
-}
-.main{
-   width:85%;
-background-color:beige;
+
+
+
 
 }
-.contenedorfull{
-    display:flex;
-    
-   
-}
-article{
- 
-   justify-content: space-evenly;
-   color:black;
-   margin-top: 10px;
-   display: flex; 
-   margin-bottom: 10px;
-   flex-direction: column;
-   text-align: left;
-   font-family: 'Poppins', sans-serif;
-  
-    
-}
 
-img{
-  width: 75%;
-    height:auto;
+.main {
+    width: 85%;
+    background-color: beige;
 
 }
-.imagen {text-align: center;}
-.contenedor section article p{
-  display: flex;
+
+.contenedorfull {
+    display: flex;
+
+
+}
+
+article {
+
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+img {
+    width: 75%;
+    height: auto;
+
+}
+
+.imagen {
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor section article p {
+    display: flex;
     width: 40%;
     font-size: large;
     text-align: justify;
     justify-content: space-evenly;
-    margin-top:0px;
+    margin-top: 0px;
 }
-.video{
-    width:50%;
+
+.video {
+    width: 50%;
 }
-.video iframe{
-    width:100%;
+
+.video iframe {
+    width: 100%;
 }
-.ingredientes{
+
+.ingredientes {
     text-align: center;
-    width:40%;
-    
-}  
-#titulo{
-text-align: center;
-color:wheat;
-text-decoration-line: underline;
-font-family:'Trebuchet MS';
-width:55%;
-padding-top:25px;
+    width: 40%;
+
 }
-.redessociales2{
+
+#titulo {
+    text-align: center;
+    color: wheat;
+    text-decoration-line: underline;
+    font-family: 'Trebuchet MS';
     
+    padding-top: 25px;
+}
+
+.redessociales2 {
+
     justify-content: flex-end;
-    
+    width:33%;
     align-items: center;
 }
-.redessociales2 i{
+
+.redessociales2 i {
     font-size: 30px;
-    margin:-2px 8px 9px;
+    margin: -2px 8px 9px;
     text-decoration: none;
-    color:wheat;
-   
+    color: wheat;
+
     justify-content: space-around;
- 
-     
-  
+
+
+
 }
-.subtitulo{
+
+.subtitulo {
     text-decoration-line: underline;
 
     text-align: center;
-    color:black;
+    color: black;
 
-    
+
 }
-.subtitulo2{
+
+.subtitulo2 {
     text-decoration-line: underline;
     background-color: burlywood;
     text-align: center;
-    color:brown;
-   
+    color: brown;
+
 }
-.receta{
+
+.receta {
     text-align: center;
     flex-direction: row;
     display: flex;
 
 }
-.receta ul, .receta li{
-    
+
+.receta ul,
+.receta li {
+
     font-size: large;
-    color:black;
-    
+    color: black;
+
 }
 
-.receta ul{
+.receta ul {
     list-style: none;
     margin: 65px 15px 0px 0px;
 }
 
-.lateral{
+.lateral {
     background-color: burlywood;
-    color:chocolate;
+    color: chocolate;
     font-family: 'Poppins', sans-serif;
-    
+
     /* margin-left: 10px; */
-   
-    
+
+
     /* position: relative; */
     /* min-height: 206vh; */
     /* float: right; */
@@ -193,72 +232,150 @@ padding-top:25px;
     justify-content: space-around;
     align-items: center;
     width: 17%;
- 
-   
+
+
 }
-.lateral img{
-    margin-top:10px;
-    margin-bottom:10px;
-    width:80%;
+
+.lateral img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
 }
-.canciones audio{
-    width:200px;
+
+.canciones audio {
+    width: 130px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
-footer{
-   
-   background-color: rgb(25, 48, 42);
-   width:100%;
-   justify-content: space-around;
-  color:wheat;
-  float:left;
-   
-   display:flex;
-   flex-wrap: wrap;
-   align-items: center;
+
+footer {
+
+    background-color: rgb(25, 48, 42);
+    width: 100%;
+    justify-content: space-around;
+    color: wheat;
+    float: left;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.texto{
-    margin-top:15px;
+
+.texto {
+    margin-top: 15px;
     font-family: 'Poppins', sans-serif;
 }
-.mapa{
-    margin-top:2px;
-}
-span{
-   color:wheat;
-   display: flex;
-   justify-content: center
-}
-.redessociales i{
-  font-size: 30px;
-  margin:10px 8px 9px;
-  text-decoration: none;
-  color:wheat;
 
-   
+.mapa {
+    margin-top: 2px;
 }
-.btn-wsp{
+
+span {
+    color: wheat;
+    display: flex;
+    justify-content: center
+}
+
+.redessociales i {
+    font-size: 30px;
+    margin: 10px 8px 9px;
+    text-decoration: none;
+    color: wheat;
+
+
+}
+
+.btn-wsp {
     position: fixed;
-    width:55px;
+    width: 55px;
     height: 55px;
     line-height: 55px;
-    bottom:30px;
-    right:30px;
-    background-color:#0df053;
-    color:#fff;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px; 
+    font-size: 30px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     z-index: 100;
 }
-.btn-wsp:hover{
-text-decoration: none;
-background-color:#0df053;
-background-color: #fff;
+
+.btn-wsp:hover {
+    text-decoration: none;
+    background-color: #0df053;
+    background-color: #fff;
 }
-.preparacion{
+
+.preparacion {
     display: flex;
+
+}
+
+@media (max-width:500px) {
+    img {
+        width: 100%;
+        /* height: auto; */
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo img {
+        width: 100%;
+        
+    }
+
+    header div {
+        /* display: flex; */
+        flex-direction: column;
+        background-color: rgb(25, 48, 42);
+        /* margin-bottom: 1px; */
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+        /* justify-content: center; */
+    }
+    .redessociales2 {
+        /* justify-content: flex-end; */
+        align-items: center;
+        /* display: flex; */
+        display: flex;
+        /* flex-direction: column; */
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+nav ul{padding-left: 0px;}
+    .lateral {
+        display: none;
+    }
+
+    .main {
+        background-color: blanchedalmond;
+        width: 100%;
+
+
+    }
+
+    .navegador ul {
+        justify-content: center;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo {
+        /* text-align: center; */
+        color: wheat;
+        text-decoration-line: underline;
+        font-family: 'Trebuchet MS';
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
     
 }
