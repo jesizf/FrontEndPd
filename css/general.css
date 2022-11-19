@@ -14,8 +14,8 @@ header div {
     display: flex;
     /* flex-direction: row; */
     background-color: rgb(25, 48, 42);
-    
-    flex-wrap: wrap;
+
+
     justify-content: space-between;
 }
 
@@ -31,9 +31,10 @@ header div {
     margin-right: 0px;
 
 }
+
 .logo img {
     width: 33%;
-    
+
 }
 
 header {
@@ -153,14 +154,14 @@ img {
     color: wheat;
     text-decoration-line: underline;
     font-family: 'Trebuchet MS';
-    
+
     padding-top: 25px;
 }
 
 .redessociales2 {
 
     justify-content: flex-end;
-    width:33%;
+    width: 33%;
     align-items: center;
 }
 
@@ -325,9 +326,10 @@ span {
         display: flex;
         justify-content: space-around;
     }
+
     .logo img {
         width: 100%;
-        
+
     }
 
     header div {
@@ -339,16 +341,22 @@ span {
         /* justify-content: space-around; */
         /* justify-content: center; */
     }
+
     .redessociales2 {
         /* justify-content: flex-end; */
         align-items: center;
+        width: 100%;
         /* display: flex; */
         display: flex;
         /* flex-direction: column; */
         flex-direction: row;
         justify-content: space-evenly;
     }
-nav ul{padding-left: 0px;}
+
+    nav ul {
+        padding-left: 0px;
+    }
+
     .lateral {
         display: none;
     }
@@ -377,5 +385,80 @@ nav ul{padding-left: 0px;}
         padding-bottom: 25px;
     }
 
-    
+    .receta {
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .ingredientes {
+        width: 100%;
+        text-align: center;
+        /* width: 40%; */
+    }
+
+    .receta ul {
+        list-style: none;
+        margin: 27px 29px 3px 0px;
+        /* margin-left: 0px; */
+    }
+
+    ol {
+        margin: 5px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .navegador ul {
+        /* justify-content: space-evenly; */
+        margin: 10px;
+        /* margin-right: 0px; */
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .lateral {
+        display: none;
+    }
+    .main {
+        width: 100%;
+        background-color: blanchedalmond;
+    }
+    .receta {
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+    .video iframe {
+        width: 90%;
+    }
+
+    .ingredientes {
+        width: 100%;
+        text-align: center;
+        /* width: 40%; */
+    }
+
+    .receta ul {
+        list-style: none;
+        margin: 27px 29px 3px 0px;
+        /* margin-left: 0px; */
+    }
+
+    ol {
+        margin: 5px;
+    }
+
 }
