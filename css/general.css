@@ -427,7 +427,8 @@ span {
 
 }
 
-@media (max-width:768px) {
+@media (orientation:landscape), (max-width:768px) {
+    
     .navegador ul {
         /* justify-content: space-evenly; */
         margin: 10px;
@@ -466,7 +467,7 @@ span {
     .receta ul {
         list-style: none;
          margin: 19px 15px 0px 0px; 
-        padding-left: 10px;
+        padding-left: 0px;
         }
     ol {
         margin: 5px;
@@ -485,15 +486,50 @@ span {
     }
 
 }
-@media (max-width:1024px){
+@media (min-width:992px){
+    #titulo {
+        text-align: center;
+        color: wheat;
+        text-decoration-line: underline;
+        font-family: 'Trebuchet MS';
+        padding-top: 24px;
+    }
+    .redessociales2 {
+        justify-content: flex-end;
+        width: 33%;
+        align-items: center;
+        /* justify-content: center; */
+        padding-top: 20px;
+    }
     .video iframe {
         width: 90%;
     }
+    .receta {
+        text-align: center;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
        
-        .receta ul {
+    .receta ul {
             list-style: none;
             margin: 25px 15px 0px 0px;
             padding-left: 0px;
         }
+    
+    .lateral img{
+        display: none;
+    }
+    footer {
+        background-color: rgb(25, 48, 42);
+        width: 100%;
+        justify-content: space-around;
+        color: wheat;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+    }
 
 }
